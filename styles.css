@@ -18,7 +18,7 @@ main {
   height: 56px;
 }
 .invoices {
-  padding: 16px;
+  padding: 24px;
 }
 .button-groups {
   display: flex;
@@ -75,7 +75,7 @@ main {
   flex-direction: column;
   align-items: flex-start;
   padding: 0p;
-  width: 75%;
+  width: 77%;
 }
 .pagination {
   display: flex;
@@ -177,7 +177,7 @@ nav .right img {
 thead tr,
 tbody tr {
   display: grid;
-  grid-template-columns: 2fr 5fr 4fr 6fr 4fr 4fr 3fr 2fr;
+  grid-template-columns: 64px 5fr 4fr 6fr 4fr 4fr 3fr 64px;
 }
 
 thead tr {
@@ -222,6 +222,7 @@ tbody tr td {
   flex-direction: column;
   gap: 4px;
   justify-content: center;
+  padding: 0 8px;
 }
 
 thead tr td:first-child {
@@ -305,7 +306,7 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   padding: 16px;
-  width: 25%;
+  width: 23%;
   gap: 16px;
   background-color: #f8f9fc;
   font-family: "Libre Franklin", sans-serif;
