@@ -299,8 +299,6 @@ tbody tr td div {
   width: fit-content;
 }
 
-/* //ASIDE */
-
 aside {
   display: flex;
   flex-direction: column;
@@ -318,8 +316,6 @@ aside {
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  gap: 10px;
-  width: 338px;
   height: 40px;
 }
 
@@ -338,13 +334,14 @@ aside {
 }
 
 .alphabet {
-  width: 338px;
   height: 17px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .alphabet p {
@@ -397,16 +394,15 @@ aside {
 
 .customer-list ul li {
   color: #1d2433bf;
-  padding: 4px;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  height: 28px;
 }
 
 .customer-list ul {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .customer-list ul li::before {
@@ -414,7 +410,7 @@ aside {
   content: "\2022";
   color: #e1e6ef;
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 12px;
 }
 .add-customers {
   display: flex;
