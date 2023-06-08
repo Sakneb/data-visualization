@@ -17,8 +17,8 @@ There is no prerequisite to run the project. Open `index.html` file in order to 
 
 ## Building process
 
-The project is build based on Figma file. The common semantic HTML and CSS styles guideliness are followed through. The pixel-perfect approach is targeted, however there might be minor differences as font-family was not provided. I tried to find the most similiar-looking font-family.
+The project is built based on a Figma file. The common semantic HTML and CSS style guidelines are followed through. The pixel-perfect approach is targeted, however there might be minor differences as font-family was not provided. I tried to find the most similiar-looking font-family.
 
 ## Conclusion
 
-I enjoyed building the particular project and I hope I will get your feedback regardless of its type.
+I enjoyed building the particular project and I hope I will get your feedback as soon as possible.
