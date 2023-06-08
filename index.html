@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Table view</title>
     <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap"
       rel="stylesheet"
     />
-    <title>Table view</title>
   </head>
-
   <body class="body">
     <header class="header">
       <div class="invoices">Invoices</div>
@@ -293,6 +292,57 @@
           </tbody>
         </table>
       </div>
+
+      <aside>
+        <div class="title">
+          <p>Customers</p>
+          <button class="add"><img src="./assets/add.svg" /> Add</button>
+        </div>
+
+        <div class="alphabet">
+          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+        </div>
+
+        <div class="search-field">
+          <div class="search-icon"><img src="./assets/search.svg" /></div>
+          <input id="search" type="search" />
+          <button>Search</button>
+        </div>
+        <div class="customer-list">
+          <ul>
+            <li>Marathon Oil Corp.</li>
+            <li>Sealed Air</li>
+            <li>Southern Company</li>
+            <li>Atmos Energy</li>
+            <li>Equifax Inc.</li>
+            <li>Kansas City Southern</li>
+            <li>Fidelity National Information Services</li>
+            <li>Colgate-Palmolive</li>
+            <li>Air Products & Chemicals Inc</li>
+            <li>Intuitive Surgical Inc.</li>
+            <li>Quest Diagnostics</li>
+            <li>Crown Castle International Corp.</li>
+            <li>News Corp. Class A</li>
+            <li>Federal Realty Investment Trust</li>
+            <li>Humana Inc.</li>
+          </ul>
+        </div>
+        <section class="add-customers">
+          <div class="header">
+            <h1><strong> Add customers</strong></h1>
+            <img src="./assets/cancel.svg" />
+          </div>
+
+          <p class="content">
+            You can add customers by pessing the Add + button in the corner or
+            by importing your clients from a CSV file
+          </p>
+
+          <div class="import">
+            <button><img src="./assets/import.svg" />Import customers</button>
+          </div>
+        </section>
+      </aside>
     </main>
   </body>
 </html>

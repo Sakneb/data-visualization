@@ -297,3 +297,182 @@ tbody tr td div {
   background-color: #ffefec;
   width: fit-content;
 }
+
+/* //ASIDE */
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  width: 25%;
+  gap: 16px;
+  background-color: #f8f9fc;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 338px;
+  height: 40px;
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 16px;
+  border: none;
+  gap: 6px;
+  width: 85px;
+  height: 40px;
+  background: #f1f3f9;
+  border-radius: 5px;
+}
+
+.alphabet {
+  width: 338px;
+  height: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2rem;
+}
+
+.alphabet p {
+  color: rgba(29, 36, 51, 0.5);
+}
+
+.search-field {
+  padding: 2px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.search-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 13.54px;
+  z-index: 3;
+}
+
+#search {
+  width: 205px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #bfcbd9;
+  border-radius: 4px;
+}
+
+.search-field button {
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #166ee8;
+  width: 129px;
+  height: 40px;
+  background-color: #e8f1fe;
+  border: 1px solid #accbf6;
+  border-radius: 5px;
+}
+
+.customer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+}
+
+.customer-list ul li {
+  color: #1d2433bf;
+  padding: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.customer-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.customer-list ul li::before {
+  width: 8px;
+  content: "\2022";
+  color: #e1e6ef;
+  display: inline-block;
+  margin-right: 8px;
+}
+.add-customers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 338px;
+  height: 182px;
+  background-color: #e1e6ef;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 141px;
+}
+
+.header h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: rgba(29, 36, 51, 0.75);
+}
+
+.content {
+  width: 290px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(29, 36, 51, 0.75);
+}
+
+.import {
+  width: 199px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #e8f1fe;
+  border-radius: 5px;
+  border: 1px solid #accbf6;
+}
+
+.import button {
+  color: #166ee8;
+  background-color: #e8f1fe;
+  border: none;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
