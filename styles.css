@@ -1,0 +1,299 @@
+.body {
+  font-family: "Libre Franklin", sans-serif;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e1e6ef;
+  padding: 0px;
+  height: 56px;
+}
+.invoices {
+  padding: 16px;
+}
+.button-groups {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+}
+
+.export {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 95px;
+  height: 44px;
+  background-color: #f1f3f9;
+  border-radius: 5px;
+  border: none;
+}
+
+.new {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px 16px 12px 8px;
+  background-color: #5abb7a;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  width: 78px;
+  height: 40px;
+}
+
+.filter {
+  border: none;
+  padding: 0px;
+  background-color: #f1f3f9;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.menu {
+  border: none;
+  padding: 0px;
+  background-color: #f1f3f9;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.tables {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0p;
+  width: 75%;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.per-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 200px;
+}
+
+.per-page p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(29, 36, 51, 0.8);
+}
+
+.per-page button,
+.input button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 14px;
+  width: 63px;
+  height: 32px;
+  background-color: #ffffff;
+  border: 1px solid #adbbca;
+  border-radius: 4px;
+  color: rgba(29, 36, 51, 0.8);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+
+nav p,
+.input p {
+  color: rgba(29, 36, 51, 0.8);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+nav button {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+}
+
+nav .left {
+  background-color: #f8f9fc;
+}
+nav .right {
+  background-color: #f1f3f9;
+}
+nav .left img {
+  color: rgba(29, 36, 51, 0.5);
+}
+
+nav .right img {
+  color: #333333;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  color: #1d2433;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+}
+
+thead tr,
+tbody tr {
+  display: grid;
+  grid-template-columns: 2fr 5fr 4fr 6fr 4fr 4fr 3fr 2fr;
+}
+
+thead tr {
+  background-color: #f1f3f9;
+}
+
+.indeterminate-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 15%;
+  background-color: #0676e6;
+  left: 41%;
+  position: relative;
+}
+
+.indeterminate-checkbox::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+tbody tr td {
+  height: 64px;
+}
+thead tr td {
+  height: 43px;
+}
+
+thead tr td,
+tbody tr td {
+  border-bottom: 1px solid #f1f3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+
+thead tr td:first-child {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+tbody tr:nth-child(4),
+tbody tr:nth-child(6) {
+  background-color: #e8f1fe;
+}
+
+tbody tr td:nth-child(7),
+thead tr td:nth-child(7) {
+  display: flex;
+  align-items: flex-end;
+}
+
+tbody tr td p:last-child {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+tbody tr td button {
+  border: none;
+  background-color: transparent;
+}
+
+tbody tr td div {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.state--progress {
+  background-color: #e8f1fe;
+}
+
+.state--progress p {
+  color: #3d8af6;
+}
+.state--pending,
+.state--complete {
+  background-color: #f8f9fc;
+}
+
+.state--pending p,
+.state--complete p {
+  color: rgba(29, 36, 51, 0.8);
+}
+
+.state--success {
+  background-color: #f0fff5;
+}
+
+.state--success p {
+  color: #5abb7a;
+}
+
+.date {
+  color: #e0593e;
+  background-color: #ffefec;
+  width: fit-content;
+}
+
+.total {
+  color: #e0593e;
+  background-color: #ffefec;
+  width: fit-content;
+}
