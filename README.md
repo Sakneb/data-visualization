@@ -21,4 +21,5 @@ The project is built based on a Figma file. The common semantic HTML and CSS sty
 
 ## Conclusion
 
-I enjoyed building the particular project and I hope I will get your feedback as soon as possible.
+I enjoyed building the particular project 
+
